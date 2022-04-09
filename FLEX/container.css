@@ -1,0 +1,20 @@
+
+#conteiner{
+    background-color: rgb(29, 105, 167);
+    width: 50vw;
+    height: 50vh;
+    margin: 0 auto;
+    margin-top: 25vh;
+
+    display: flex; /* Direção da distribuição de itens*/
+    flex-direction: row; /* Alinhamento no eixo principal*/
+    justify-content: space-between;/* Quebrar ou não a linha*/
+    flex-wrap: wrap; /* wrap|nowarp*/
+    align-items: stretch; /* Alinha no eixo secundario*/
+
+}
+
+.item{
+    background-color: rgb(19, 175, 233);
+    margin: 0.25em;
+}
