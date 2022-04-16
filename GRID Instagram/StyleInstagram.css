@@ -1,0 +1,90 @@
+Body{
+    background-color: rgb(250, 252, 252);
+}
+#Topo{
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 15% 19% 3% 3% 3% 3% 3% 3% 21%  ;
+
+}
+.topo{
+    border: 1px solid black;
+    height: 3.7em;
+}
+
+#Perfil{
+    margin-top: 1.5em;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 15% 37% 33% ;
+}
+.foto{
+    text-align: center;
+    border: 1px solid black;
+    height: 15em;
+    
+}
+.foto img{
+    width: 60%;
+    border-radius: 80%;
+}
+.Informacoes{
+    border: 1px solid black;
+    height: 15em;
+
+}
+#Destaques{
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% auto auto auto auto auto auto auto 23%  ;
+}
+.destaques{
+    margin-top: 2em;
+    text-align: center;
+    border: 1px solid black;
+    height: 9em;
+}
+.destaques img{
+    width: 55%;
+    border-radius: 80%;
+}
+.espaco{
+    border: 1px solid white;
+}
+#Divisoes{
+    margin-left: 40%;
+    margin-right: 40%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1em;
+}
+.divisoes{
+    margin-top: 1em;
+    text-align: center;
+    border: 1px solid black;
+    height: 3em;
+}
+#Fotos{
+    margin-left: 25%;
+    margin-right: 22%;
+    width: 53%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1em;
+}
+.fotos{
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 95%;
+    height: 20em;
+}
+.fotos img{
+    width: 100%;
+    filter: brightness(100%);
+}
+.fotos:hover img{
+filter: brightness(80%);
+}
