@@ -1,0 +1,134 @@
+body{
+    height: 150vh;
+    /*COR SOLIDA*/
+    /*background-color: aquamarine;*/
+
+
+    /* Cores em degradê/Gradient 
+
+    background-image: linear-gradient(red, white, blue);
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        To botton: para baixo
+        To top: para cima
+        To right: para direita
+        To left:  para esquerda
+            PODEM SER COMBINADOS
+        0deg DEG E USADO PARA GRAUS
+        45deg  para 45°
+
+    background-image: linear-gradient(45deg, red, white, blue);
+
+        Pode escolhque onde quer começar usando Porcentagem
+
+    background-image: linear-gradient( red 25%, white 10%, blue);
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Cores em degradê  Radial
+
+    background-image: radial-gradient(black, white, blue);
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+        Imagens 
+
+    background-image: url("imagem.jpg");
+
+        Usado para repitir    
+    background-repeat: repeat;
+    
+    background-repeat: repeat-y;
+    
+    background-repeat: repeat-x;
+    
+        Para não repetir
+    background-repeat: no-repeat;
+
+        Usado para posição
+    
+    background-position: top left;    
+    background-position: top right;
+
+    background-position: bottom left;
+    background-position: top center;
+
+    background-position: center center;
+
+        Pode ser usado px
+    background-position: 50px 100px;
+
+        Pode ser usado para O tamanho
+        
+    background-size: 100% ;
+    background-size: 100% 100%;
+    
+    background-size: 500px;
+    
+        Mostra o amximo de imagem possivel na tela
+    background-size: cover;
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    max-width: 650px; Utilizado para ficar em um tamanho maximo fixo
+
+*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("BF.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+
+#Box{
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    font-size: 2em;
+    padding: 1em;
+    margin: 1em;
+    width: 650px;
+    position: relative;  /* Relative e para tornamr o tamanho da Box o tamanho padrão*/
+}
+#Propaganda{
+    background-color: white;
+    padding: 1em;
+    border-radius: 15px;
+    width: 200px;
+    position: absolute; /* Não use para (Layout) posicionar como FLEX/GRID/FLOAT*/
+    bottom: 20px;  /* em relação ao tamamnho so site*/
+    right: 20px;
+
+}
+#formulario{
+    background-color: rgba(59, 59, 59, .5);
+    border-radius: 1rem;
+    font-size: 1rem;
+    padding: 1rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#Menu{
+    background-color: white;
+    padding: 1em;
+    position: fixed;    /*Fixed fica fixado na janela, como no exempo ficou no top*/
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;   /*z-index: Altera a profundidade do Position*/
+}
+#Menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#Menu ul li{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: .5em 1em;
+    border-radius: 20px;
+    margin: 0 1em;
+
+    
+}
